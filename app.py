@@ -1,7 +1,7 @@
 from flask import Flask
 app = Flask(__name__)
 
-@app.route('/invoke')
+@app.route('/invoke', methods=['POST'])
 def hello_world():
     import train
 

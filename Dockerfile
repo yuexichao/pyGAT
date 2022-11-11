@@ -11,4 +11,6 @@ RUN pip install flask && \
 
 COPY . .
 
+EXPOSE 9091
+
 ENTRYPOINT [ "python", "./train.py" ]
