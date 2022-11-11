@@ -13,4 +13,4 @@ COPY . .
 
 EXPOSE 9091
 
-ENTRYPOINT [ "python", "./train.py" ]
+ENTRYPOINT [ "python", "./app.py" ]
